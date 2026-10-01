@@ -21,8 +21,8 @@ cd skills-communicate-using-markdown
 python -m venv venv
 # Windows 激活命令
 venv\Scripts\activate
-pip install ultralytics # 环境依赖
-yolo detect predict model=yolov8n.pt source=images # 将图片放在根目录，然后复制这行运行，检测结果将保存在 runs/detect/predict 目录。
+pip install ultralytics 
+yolo detect predict model=yolov8n.pt source=images 
 
 
 
